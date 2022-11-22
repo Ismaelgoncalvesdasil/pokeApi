@@ -1,0 +1,88 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 65%;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  header {
+    font-size: 50px;
+  }
+  
+  header h3 {
+    text-decoration: underline red;
+  }
+  
+  .container {
+    width: 50rem;
+  }
+  
+  .inpbtn {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inpbtn input {
+    color: red;
+    background-color: whitesmoke;
+    border: none;
+    padding: .7rem 2rem;
+    border-radius: 2px;
+    width: 80%;
+    height: 3.6rem;
+  }
+  
+  .inpbtn button {
+    border: none;
+    background: red;
+    width: 18%;
+    height: 38px;
+    border-radius: 10px;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .inpbtn button:hover {
+    transform: scale(1.2);
+  }
+
+  .resContainer {
+    background-color: wheat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+  }
+  .resContainer img{
+    width: 300px;
+  }
+  footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .icone{
+    border:solid;
+    border-radius: 20px;
+    background-color: rgb(255, 98, 98);
+    cursor: auto;
+    text-align: center;
+  }
+
+  .icone a{
+    font-size:30px;
+    padding: 2px;
+  }
